@@ -5,12 +5,14 @@
   padding: 0 !important;
   color: white;
   font-size: 18px;
-  background-repeat: space;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .m-0 {
   background-color: black;
   height: 53px;
   font-size: 35px;
-  transform: rotate(-1deg);
 }
